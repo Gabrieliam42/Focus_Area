@@ -8,7 +8,7 @@ Focus Area is intuitive: creating transparent focus areas is as simple as clicki
 
 ## Features
 
-- **Full-screen transparent overlay** with configurable color and opacity
+- Full-screen transparent overlay** with configurable color and opacity
 - **Drawable transparent focus areas** - click and drag to create
 - **Move focus areas** - drag the violet handle on the left side
 - **Resize focus areas** - drag edges or corners (8 directions)
