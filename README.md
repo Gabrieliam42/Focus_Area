@@ -33,10 +33,10 @@ Focus Area is intuitive: creating transparent focus areas is as simple as clicki
 1. Launch Focus_Area - the screen will be dimmed with a dark overlay
 2. **Hold Shift** to peek through the veil and see where to position focus areas
 3. **Click and drag** on the dimmed area to create a transparent focus area
-4. **Drag the violet handle** (left side, upper portion) to move the focus area
+4. Drag the violet handle** (left side, upper portion) to move the focus area
 5. **Drag edges or corners** to resize the focus area
 6. **Right-click the violet handle** to delete the focus area
-7. **Right-click the dimmed area** to access the menu
+7. Right-click the dimmed area** to access the menu
 
 ### Keyboard Shortcuts
 
