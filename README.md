@@ -105,7 +105,7 @@ pip install -r requirements.txt
 
 <br><br>
 
-[Download Latest Release (v1.0.0)](https://github.com/Gabrieliam42/Focus_Area/releases/tag/1.0.0)
+
 
 ## License
 
