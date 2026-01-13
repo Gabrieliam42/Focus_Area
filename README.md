@@ -79,10 +79,6 @@ Focus Area is intuitive: creating transparent focus areas is as simple as clicki
 
 ## Technical Details
 
-- **Default dimming color:** #0C0000 (very dark red)
-- **Transparency key:** #FF00FF (magenta) for transparent focus areas
-- **Focus area border:** 2px bright red (#FF0000)
-- **Violet move handle:**
 - **Default opacity:** 100% (dimming), 55% (peek through)
 - **Config file:** `focus_area_config.json` (in exe directory when frozen)
 
