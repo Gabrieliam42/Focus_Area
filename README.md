@@ -6,6 +6,8 @@ Use Focus_Area to eliminate visual clutter from sidebars, advertisements, notifi
 
 Focus Area is intuitive: creating transparent focus areas is as simple as clicking and dragging rectangles on your screen. Add multiple focus areas wherever you need them. Easily move focus areas by dragging the violet handle, resize by dragging edges or corners, and save your configurations for reuse. Pause with Ctrl+Shift+X or double-click, adjust opacity with the mouse wheel, and hold Shift to peek through the veil temporarily.
 
+[Download Latest Release (v1.0.0)](https://github.com/Gabrieliam42/Focus_Area/releases/tag/1.0.0)
+
 ## Features
 
 - Full-screen transparent overlay** with configurable color and opacity
