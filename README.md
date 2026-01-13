@@ -103,9 +103,18 @@ python -m venv .venv312
 pip install -r requirements.txt
 ```
 
+<br><br>
+
+
+
+<br><br>
+
+[Download Latest Release (v1.0.0)](https://github.com/Gabrieliam42/Focus_Area/releases/tag/1.0.0)
+
 ## License
 
-See [LICENSE](LICENSE) file for details.
+See [LICENSE](https://github.com/Gabrieliam42/Focus_Area/blob/main/LICENSE) file for details.
+
 
 ## Author
 
