@@ -9,17 +9,17 @@ Focus Area is intuitive: creating transparent focus areas is as simple as clicki
 ## Features
 
 - Full-screen transparent overlay** with configurable color and opacity
-- **Drawable transparent focus areas** - click and drag to create
-- **Move focus areas** - drag the violet handle on the left side
-- **Resize focus areas** - drag edges or corners (8 directions)
-- **Delete focus areas** - right-click the violet handle or press Delete key
-- **Pause/Resume** - Ctrl+Shift+X, double-click, or use menu/tray
-- **Peek through mode** - hold Shift to temporarily see through (default 55% transparency)
-- **Console window control** - hidden by default, show/hide via menu
-- **System tray icon** with quick access menu
-- **Configuration save/load** - JSON format with auto-save
-- **Quick start guide** - dark themed with "Don't show again" option
-- **Admin privilege auto-elevation** - seamless startup
+- Drawable transparent focus areas** - click and drag to create
+- Move focus areas** - drag the violet handle on the left side
+- Resize focus areas** - drag edges or corners (8 directions)
+- Delete focus areas** - right-click the violet handle or press Delete key
+- Pause/Resume** - Ctrl+Shift+X, double-click, or use menu/tray
+- Peek through mode** - hold Shift to temporarily see through (default 55% transparency)
+- Console window control** - hidden by default, show/hide via menu
+- System tray icon** with quick access menu
+- Configuration save/load** - JSON format with auto-save
+- Quick start guide** - dark themed with "Don't show again" option
+- Admin privilege auto-elevation** - seamless startup
 
 ### Requirements
 
