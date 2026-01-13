@@ -56,7 +56,6 @@ pip install -r requirements.txt
 | **Shift** | Hold to peek through (temporary transparency) |
 | **Ctrl+Shift+X** | Pause (hide veil) |
 | **Escape** | Show menu |
-| **Delete** | Delete selected focus area (click violet handle first) |
 
 ### Mouse Controls
 
