@@ -21,8 +21,6 @@ Focus Area is intuitive: creating transparent focus areas is as simple as clicki
 - **Quick start guide** - dark themed with "Don't show again" option
 - **Admin privilege auto-elevation** - seamless startup
 
-## Installation
-
 ### Requirements
 
 - `pillow`
