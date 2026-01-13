@@ -91,7 +91,7 @@ Focus Area is intuitive: creating transparent focus areas is as simple as clicki
 Focus_Area is written in Python
 
 
-## Development
+Note: This script was inspired by [CinemaDrape](https://github.com/aurelitec/cinemadrape-windows)
 
 ### Environment Setup
 
@@ -113,7 +113,6 @@ pip install -r requirements.txt
 
 See [LICENSE](https://github.com/Gabrieliam42/Focus_Area/blob/main/LICENSE) file for details.
 
-Note: This script was inspired by [CinemaDrape](https://github.com/aurelitec/cinemadrape-windows)
 
 
 ### Author
