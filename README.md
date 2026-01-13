@@ -115,6 +115,8 @@ pip install -r requirements.txt
 
 See [LICENSE](https://github.com/Gabrieliam42/Focus_Area/blob/main/LICENSE) file for details.
 
+Note: This script was inspired by [CinemaDrape](https://github.com/aurelitec/cinemadrape-windows)
+
 
 ### Author
 
