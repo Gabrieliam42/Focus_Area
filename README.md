@@ -23,6 +23,15 @@ Focus Area is intuitive: creating transparent focus areas is as simple as clicki
 - Quick start guide** - dark themed with "Don't show again" option
 - Admin privilege auto-elevation** - seamless startup
 
+
+### Environment Setup
+
+```bash
+python -m venv .venv312
+.venv312\Scripts\activate
+pip install -r requirements.txt
+```
+
 ### Requirements
 
 - `pillow`
@@ -91,13 +100,6 @@ Focus_Area is written in Python
 
 Note: This script was inspired by [CinemaDrape](https://github.com/aurelitec/cinemadrape-windows)
 
-### Environment Setup
-
-```bash
-python -m venv .venv312
-.venv312\Scripts\activate
-pip install -r requirements.txt
-```
 
 <br><br>
 
