@@ -116,7 +116,7 @@ pip install -r requirements.txt
 See [LICENSE](https://github.com/Gabrieliam42/Focus_Area/blob/main/LICENSE) file for details.
 
 
-## Author
+### Author
 
 **Gabriel Mihai**
 GitHub: [Gabrieliam42](https://github.com/Gabrieliam42)
