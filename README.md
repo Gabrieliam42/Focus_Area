@@ -39,8 +39,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Quick Start
-
 1. Launch Focus_Area - the screen will be dimmed with a dark overlay
 2. **Hold Shift** to peek through the veil and see where to position focus areas
 3. **Click and drag** on the dimmed area to create a transparent focus area
