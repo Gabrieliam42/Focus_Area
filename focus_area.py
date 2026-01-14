@@ -211,9 +211,9 @@ class FocusArea:
         )
         print(f"Focus area filled with transparency key: {parent.transparency_key}")
 
-        self.move_handle_size = 8
-        handle_x = x
-        handle_y = y + height * 0.382
+        self.move_handle_size = 4
+        handle_x = x + width * 0.5
+        handle_y = y - 12
         self.move_handle_id = self.canvas.create_oval(
             handle_x - self.move_handle_size,
             handle_y - self.move_handle_size,
@@ -225,7 +225,7 @@ class FocusArea:
             tags="move_handle"
         )
         self.canvas.tag_raise(self.move_handle_id)
-        print(f"Created violet move handle at golden ratio position (38.2% from top) on left side")
+        print(f"Created violet move handle (4px) 12px above top side, centered horizontally")
 
         self.drag_start_x = 0
         self.drag_start_y = 0
@@ -259,13 +259,13 @@ class FocusArea:
 
         x1, y1, x2, y2 = coords
 
-        height = y2 - y1
-        handle_y = y1 + height * 0.382
+        width = x2 - x1
+        handle_x = x1 + width * 0.5
+        handle_y = y1 - 12
         move_handle_buffer = 4
 
-        if (abs(event_x - x1) < self.resize_handle_size + 5 and
-            handle_y - self.move_handle_size - move_handle_buffer <= event_y <=
-            handle_y + self.move_handle_size + move_handle_buffer):
+        if (abs(event_x - handle_x) < self.move_handle_size + move_handle_buffer and
+            abs(event_y - handle_y) < self.move_handle_size + move_handle_buffer):
             return "move"
 
         handle = self.resize_handle_size
@@ -429,13 +429,13 @@ class FocusArea:
         self.canvas.config(cursor="cross")
 
     def update_handle_position(self):
-        """Update the position of the move handle to golden ratio point (0.382 from top) on left side"""
+        """Update the position of the move handle 12px above top side, centered horizontally"""
         coords = self.canvas.coords(self.rect_id)
         if coords and len(coords) >= 4:
             x1, y1, x2, y2 = coords
-            handle_x = x1
-            height = y2 - y1
-            handle_y = y1 + height * 0.382
+            width = x2 - x1
+            handle_x = x1 + width * 0.5
+            handle_y = y1 - 12
 
             self.canvas.coords(
                 self.move_handle_id,
@@ -1457,7 +1457,7 @@ This helps you see where to position your focus areas!
 
 HOW TO USE:
 - Click and drag on the dark area to create focus areas
-- Drag the VIOLET HANDLE (left side) to move focus areas
+- Drag the VIOLET HANDLE (4px, top center, 12px above) to move focus areas
 - Drag edges or corners to resize focus areas
 - Right-click the violet handle to DELETE a focus area
 - Right-click the dimmed area to show menu
@@ -1495,8 +1495,8 @@ TIP: Focus areas are transparent windows where
 you can see your actual content clearly while
 the rest of the screen remains dimmed.
 
-Look for the small violet circle on the LEFT SIDE
-(upper portion at golden ratio point) - that's your move handle!
+Look for the small violet circle (4px) on the TOP SIDE
+(centered horizontally, 12px above) - that's your move handle!
 
 PEEK THROUGH TIP: Hold Shift to temporarily make the veil
 more transparent (55%) so you can see where to position
