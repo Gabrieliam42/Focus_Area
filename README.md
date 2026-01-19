@@ -1,6 +1,6 @@
 # Focus Area for Windows
 
-Focus Area helps you concentrate on your current task by instantly dimming or darkening the surrounding screen areas, leaving only your important work visible. Focus_Area works system-wide and can help you write documents, watch videos, read articles, or work with any application without distractions.
+Focus Area helps you concentrate on any task by instantly dimming or darkening the surrounding screen areas, leaving only your important work visible. Focus_Area works system-wide and can help you write documents, watch videos, read articles, or work with any application without distractions.
 
 Use Focus_Area to eliminate visual clutter from sidebars, advertisements, notifications, and background windows. With Focus_Area you no longer need to close applications, resize windows, or struggle with distracting screen elements competing for your attention.
 
